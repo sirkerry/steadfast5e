@@ -67,8 +67,8 @@ function registerOptions()
 		sKey = OPT_SHORT_DUR, sGroupRes = "option_header_grr",
 		tCustom = {
 			baselabelres = "option_val_GRR_SHORT_DUR_raw",    baseval = "raw",
-			labelsres    = "option_val_GRR_SHORT_DUR_extended,option_val_GRR_SHORT_DUR_overnight",
-			values       = "extended,overnight",
+			labelsres    = "option_val_GRR_SHORT_DUR_extended|option_val_GRR_SHORT_DUR_overnight",
+			values       = "extended|overnight",
 			default      = "raw",
 		},
 	});
@@ -78,8 +78,8 @@ function registerOptions()
 		sKey = OPT_LONG_DUR, sGroupRes = "option_header_grr",
 		tCustom = {
 			baselabelres = "option_val_GRR_LONG_DUR_raw",    baseval = "raw",
-			labelsres    = "option_val_GRR_LONG_DUR_gritty1,option_val_GRR_LONG_DUR_gritty3,option_val_GRR_LONG_DUR_gritty7",
-			values       = "gritty1,gritty3,gritty7",
+			labelsres    = "option_val_GRR_LONG_DUR_gritty1|option_val_GRR_LONG_DUR_gritty3|option_val_GRR_LONG_DUR_gritty7",
+			values       = "gritty1|gritty3|gritty7",
 			default      = "raw",
 		},
 	});
@@ -95,8 +95,8 @@ function registerOptions()
 		sKey = OPT_HD_DC, sGroupRes = "option_header_grr",
 		tCustom = {
 			baselabelres = "option_val_GRR_HD_DC_dc15",    baseval = "dc15",
-			labelsres    = "option_val_GRR_HD_DC_dc10,option_val_GRR_HD_DC_dc20,option_val_GRR_HD_DC_manual",
-			values       = "dc10,dc20,manual",
+			labelsres    = "option_val_GRR_HD_DC_dc10|option_val_GRR_HD_DC_dc20|option_val_GRR_HD_DC_manual",
+			values       = "dc10|dc20|manual",
 			default      = "dc15",
 		},
 	});
@@ -106,8 +106,8 @@ function registerOptions()
 		sKey = OPT_HD_PASS, sGroupRes = "option_header_grr",
 		tCustom = {
 			baselabelres = "option_val_GRR_HD_PASS_half",    baseval = "half",
-			labelsres    = "option_val_GRR_HD_PASS_full,option_val_GRR_HD_PASS_quarter",
-			values       = "full,quarter",
+			labelsres    = "option_val_GRR_HD_PASS_full|option_val_GRR_HD_PASS_quarter",
+			values       = "full|quarter",
 			default      = "half",
 		},
 	});
@@ -117,8 +117,8 @@ function registerOptions()
 		sKey = OPT_HD_FAIL, sGroupRes = "option_header_grr",
 		tCustom = {
 			baselabelres = "option_val_GRR_HD_FAIL_quarter",  baseval = "quarter",
-			labelsres    = "option_val_GRR_HD_FAIL_half,option_val_GRR_HD_FAIL_zero",
-			values       = "half,zero",
+			labelsres    = "option_val_GRR_HD_FAIL_half|option_val_GRR_HD_FAIL_zero",
+			values       = "half|zero",
 			default      = "quarter",
 		},
 	});
@@ -128,8 +128,8 @@ function registerOptions()
 		sKey = OPT_HP_REC, sGroupRes = "option_header_grr",
 		tCustom = {
 			baselabelres = "option_val_GRR_HP_REC_full",    baseval = "full",
-			labelsres    = "option_val_GRR_HP_REC_threequarters,option_val_GRR_HP_REC_half,option_val_GRR_HP_REC_quarter",
-			values       = "threequarters,half,quarter",
+			labelsres    = "option_val_GRR_HP_REC_threequarters|option_val_GRR_HP_REC_half|option_val_GRR_HP_REC_quarter",
+			values       = "threequarters|half|quarter",
 			default      = "full",
 		},
 	});
