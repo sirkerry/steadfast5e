@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+	<script name="ExpandedSkillsManager" file="scripts/manager_se_skill_compat.lua" />
+</root>

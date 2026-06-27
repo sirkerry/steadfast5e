@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+
+	<!-- Replace only the list script inside the existing 5E skills panel.
+	     The list class (char_skill_item), datasource (.skilllist), anchors,
+	     and column headers are inherited unchanged from the ruleset. -->
+	<windowclass name="charsheet_skills_contents" merge="join">
+		<sheetdata>
+			<list_content_labeled_alternating_top name="list">
+				<script file="scripts/char_se_specialtylist.lua" />
+			</list_content_labeled_alternating_top>
+		</sheetdata>
+	</windowclass>
+
+</root>

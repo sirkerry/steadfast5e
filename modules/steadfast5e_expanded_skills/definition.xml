@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root version="4.1">
+	<name>Steadfast5e Expanded Skills</name>
+	<displayname>Steadfast5e Expanded Skills</displayname>
+	<author>Kerry Harrison (sirkerry)</author>
+	<ruleset>5E</ruleset>
+	<category>Steadfast5e</category>
+	<description>Reference module for the Steadfast5e Expanded Skills extension. Descriptions, scope boundaries, example uses, and GM guidance for all 26 skills in the Steadfast5e skill system.</description>
+	<thumbnail>thumbnail.png</thumbnail>
+</root>

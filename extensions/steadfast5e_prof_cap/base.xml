@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+	<windowclass name="charsheet_main" merge="join">
+		<sheetdata>
+			<number_linked_framed name="profbonus">
+				<script>
+					function onSourceUpdate()
+						local nLevel = calculateSources();
+						local nProf;
+						if nLevel >= 13 then
+							nProf = 4;
+						elseif nLevel >= 7 then
+							nProf = 3;
+						else
+							nProf = 2;
+						end
+						setValue(nProf);
+					end
+				</script>
+			</number_linked_framed>
+		</sheetdata>
+	</windowclass>
+</root>

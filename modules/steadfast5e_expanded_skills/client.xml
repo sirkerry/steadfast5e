@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root version="4.1">
+	<library>
+		<steadfast5e_expanded_skills static="true">
+			<name type="string">Steadfast5e Expanded Skills</name>
+			<categoryname type="string">Steadfast5e</categoryname>
+			<entries>
+				<skills>
+			<name type="string">Skills</name>
+			<librarylink type="windowreference">
+				<class>reference_list</class>
+				<recordname>..</recordname>
+			</librarylink>
+			<recordtype type="string">skill</recordtype>
+				</skills>
+			</entries>
+		</steadfast5e_expanded_skills>
+	</library>
+	<reference>
+		<skilldata>
+
+				<academics>
+			<locked type="number">1</locked>
+			<name type="string">Academics</name>
+			<stat type="string">Intelligence</stat>
+			<text type="formattedtext">
+				<p>Academics covers the humanistic disciplines — the accumulated written knowledge of civilizations. History, literature, law, philosophy, politics, languages, culture, art. If it was taught in a university or found in a library, and it is not magical theory, divine theology, or hard empirical science, it is Academics.</p>
+				<h>Does Not Cover</h>
+				<p>Arcana (magical theory and identification), Religion (divine lore and theology), Occult (weird or fey knowledge), Science (hard sciences and formal engineering), Nature (biological knowledge of the natural world).</p>
+				<h>Example Uses</h>
+				<list>
+					<li>Recall which noble house controls a contested border region and the history behind the claim.</li>
+					<li>Decipher an archaic legal contract written in an old dialect.</li>
+					<li>Know which cultural taboos apply when meeting a foreign dignitary, and how badly breaking them would matter.</li>
+					<li>Research the history of a ruined city through library records.</li>
+					<li>Identify a forgery by its anachronistic references to historical events.</li>
+				</list>
+				<h>GM Guidance</h>
+				<p>Call for Academics when the answer exists in written records or scholarly tradition. A wandering mercenary might not have it; a scribe, lawyer, or educated noble almost certainly does. When a character wants to know something about the political or cultural history of a place, this is the skill.</p>
+			</text>
+				</academics>
+
+				<acrobatics>
+			<locked type="number">1</locked>
+			<name type="string">Acrobatics</name>
+			<stat type="string">Dexterity</stat>
+			<text type="formattedtext">
+				<p>Balance, tumbling, controlled falling, running across difficult or unstable surfaces, recovering from a shove. The physical expression of dexterity in deliberate movement. Where Athletics is raw effort against resistance, Acrobatics is grace under pressure.</p>
+				<h>Does Not Cover</h>
+				<p>Stealth (hiding or moving quietly), Athletics (climbing, swimming, or pushing against resistance — that is STR).</p>
+				<h>Example Uses</h>
+				<list>
+					<li>Keep your footing on a rolling ship deck while fighting.</li>
+					<li>Tumble through a gap in a crowd without losing speed.</li>
+					<li>Slip out of a grapple before the hold locks in.</li>
+					<li>Walk a narrow rooftop beam without slowing.</li>
+					<li>Stick a landing after dropping from a height that would send others sprawling.</li>
+				</list>
+				<h>GM Guidance</h>
+				<p>Acrobatics is for situations where agility and body control matter more than raw strength. If they are moving past something quickly and gracefully, Acrobatics. If they are pushing or pulling against weight or resisting physical force, Athletics.</p>
+			</text>
+				</acrobatics>
+
+				<arcana>
+			<locked type="number">1</locked>
+			<name type="string">Arcana</name>
+			<stat type="string">Intelligence</stat>
+			<text type="formattedtext">
+				<p>Academic and structured understanding of magic: spells and their effects, magical theory, identifying enchantments and magical creatures, the nature of the planes. Magic as a knowable discipline that can be studied, catalogued, and formally understood. If the knowledge came from a book or a teacher, it is Arcana.</p>
+				<h>Does Not Cover</h>
+				<p>Occult (knowledge of weird, fey, or warlock magic accumulated through experience rather than study), Religion (divine magic sources and the theology behind them), Healing (practical application of magical remedies).</p>
+				<h>Example Uses</h>
+				<list>
+					<li>Identify the school of a spell being cast and what it is likely to do.</li>
+					<li>Recognize the sigils of a summoning circle and what they are calling.</li>
+					<li>Know the anatomy of a beholder and which eye stalk does what.</li>
+					<li>Determine the likely magical properties of an enchanted item from its aura.</li>
+					<li>Recall the historical origin of a regional magical phenomenon.</li>
+				</list>
+				<h>GM Guidance</h>
+				<p>Arcana covers magic as a knowable system. If the knowledge requires formal education or access to magical texts, it is Arcana. If the character learned it from getting burned by a fey bargain or watching a warlock's patron manifest, consider Occult instead.</p>
+			</text>
+				</arcana>
+
+				<athletics>
+			<locked type="number">1</locked>
+			<name type="string">Athletics</name>
+			<stat type="string">Strength</stat>
+			<text type="formattedtext">
+				<p>Raw strength in motion: climbing, swimming, jumping, dragging, throwing, grappling. When the body is working against physical resistance — water, gravity, another creature, dead weight — that is Athletics.</p>
+				<h>Does Not Cover</h>
+				<p>Endurance (sustaining effort over time in punishing conditions — that is CON), Acrobatics (graceful and controlled movement without the element of physical force).</p>
+				<h>Example Uses</h>
+				<list>
+					<li>Scale a smooth castle wall using a rope and arm strength alone.</li>
+					<li>Swim against strong current to reach the far bank.</li>
+					<li>Drag an unconscious companion through deep mud.</li>
+					<li>Leap a wide gap between two rooftops.</li>
+					<li>Wrestle a guard to the ground and pin them long enough for someone else to act.</li>
+				</list>
+				<h>GM Guidance</h>
+				<p>Athletics is what your muscles can do against resistance. Acrobatics is what your coordination can do with precision. When someone is efforting against physical resistance, Athletics. When they need to be precise or agile rather than powerful, Acrobatics. Both can apply in the same situation.</p>
+			</text>
+				</athletics>
+
+				<beastcraft>
+			<locked type="number">1</locked>
+			<name type="string">Beastcraft</name>
+			<stat type="string">Wisdom</stat>
+			<text type="formattedtext">
+				<p>Handling, taming, training, calming, and communicating with animals and mundane beasts. Reading a creature's body language, soothing a panicked animal, directing a trained beast, or coaxing a wild one toward cooperation. WIS because good animal handling is about patience, empathy, and reading intent — not just knowledge of what a creature is. Replaces Animal Handling.</p>
+				<h>Does Not Cover</h>
+				<p>Nature (academic knowledge of animal biology — that is INT), Wildcraft (finding animals in the wild, reading wildlife sign), Occult (supernatural or aberrant creatures that do not respond to normal handling).</p>
+				<h>Example Uses</h>
+				<list>
+					<li>Calm a horse spooked by the smell of blood before it bolts.</li>
+					<li>Train a hound to track a specific scent reliably.</li>
+					<li>Coax a wounded wolf to let you approach without triggering an attack.</li>
+					<li>Direct a war-trained griffon under stress in mid-combat.</li>
+					<li>Recognize that a pack animal is near its breaking point and adjust the load before it happens.</li>
+				</list>
+				<h>GM Guidance</h>
+				<p>Beastcraft is the active, relational skill for working with creatures. Nature tells you what an animal IS; Beastcraft tells you how to work WITH it. A hunter who traps animals does not need Beastcraft to set snares but does need it to take a live animal without it dying in the struggle. Mundane beasts only — supernatural creatures fall to Arcana, Occult, or Religion.</p>
+			</text>
+				</beastcraft>
+
+				<cooking>
+			<locked type="number">1</locked>
+			<name type="string">Cooking</name>
+			<stat type="string">Wisdom</stat>
+			<text type="formattedtext">
+				<p>Preparing food and drink. Knowing flavors and technique, improvising with what is available, recognizing when food has gone bad, making a safe and sustaining meal from uncertain sources. WIS because good cooking is fundamentally about reading ingredients, adapting to conditions, and trusting your senses.</p>
+				<h>Does Not Cover</h>
+				<p>Herblore (specifically medicinal and alchemical plant preparation — there is overlap, but Herblore is about plant properties, Cooking is about making food), Survival (finding food in the first place), Nature (knowing whether something is biologically safe to consume as a species).</p>
+				<h>Example Uses</h>
+				<list>
+					<li>Turn foraged roots and a day-old bird into something the party will actually eat.</li>
+					<li>Detect that the innkeeper's stew has turned before anyone else notices.</li>
+					<li>Prepare preservation brine for game meat that will last the week-long march.</li>
+					<li>Work with unfamiliar local ingredients to produce something acceptable to a noble household.</li>
+					<li>Know which spices in the market are actually what the seller claims.</li>
+				</list>
+				<h>GM Guidance</h>
+				<p>Call for Cooking when the quality or safety of food actually matters to the fiction. Survival finds the food; Cooking determines what happens to it. A character with Cooking proficiency reliably keeps the party fed well in any environment. Without it, meals are functional at best.</p>
+			</text>
+				</cooking>
+
+				<crafting>
+			<locked type="number">1</locked>
+			<name type="string">Crafting</name>
+			<stat type="string">Intelligence</stat>
+			<text type="formattedtext">
+				<p>Making and repairing objects. Understanding materials and their properties, construction techniques, engineering principles, and practical design. Flat INT for all crafting types — smithing, carpentry, stonecutting, leatherwork, tailoring — because good crafting requires problem-solving and technical knowledge regardless of the medium.</p>
+				<h>Does Not Cover</h>
+				<p>Science (theoretical engineering and formal technical design — Crafting is hands-on making), Healing (a medicinal device involves Crafting to build but Healing to apply correctly), Herblore (preparation of alchemical plant material is its own discipline).</p>
+				<h>Example Uses</h>
+				<list>
+					<li>Repair a broken wagon axle with the materials available on the road.</li>
+					<li>Identify why a mechanism is failing and fix it without disassembling everything.</li>
+					<li>Construct a door barricade from salvaged timber that will actually hold under pressure.</li>
+					<li>Forge a key from a wax impression taken earlier.</li>
+					<li>Evaluate the construction quality of a bridge before trusting it with a loaded cart.</li>
+				</list>
+				<h>GM Guidance</h>
+				<p>Crafting covers making something. Knowledge checks about construction or structural soundness are Crafting. Extended crafting projects are time and resource checks, not skill rolls — reserve checks for when failure or partial success changes the outcome.</p>
+			</text>
+				</crafting>
+
+				<deception>
+			<locked type="number">1</locked>
+			<name type="string">Deception</name>
+			<stat type="string">Charisma</stat>
+			<text type="formattedtext">
+				<p>All forms of dishonest or forceful social influence. Lies, fabrications, manipulation, misdirection, impersonation, threats, coercion, and intimidation. In Steadfast5e, Deception absorbs Intimidation entirely — there is no separate Intimidation skill. CHA because manipulation and intimidation both depend on projecting a convincing persona.</p>
+				<h>Does Not Cover</h>
+				<p>Persuasion (honest positive influence — if genuinely trying to reach mutual benefit through truth and reason, that is Persuasion), Stealth (hiding your presence entirely), Perform (entertaining or creating a convincing artistic persona without deceptive intent).</p>
+				<h>Example Uses</h>
+				<list>
+					<li>Convince a gate guard you are a city inspector who already cleared this checkpoint.</li>
+					<li>Threaten a merchant with implied violence until he reveals his supplier.</li>
+					<li>Impersonate a guild official convincingly enough to gain access to the records room.</li>
+					<li>Bluff your way through an interrogation when you know nothing useful.</li>
+					<li>Shake down a frightened informant without laying a hand on them.</li>
+				</list>
+				<h>GM Guidance</h>
+				<p>If the character is trying to control a social situation through untruth or force of personality backed by menace, it is Deception. Persuasion is for genuine appeals toward mutual benefit. Use intent as the guide: a bribe offered to genuinely help someone is Persuasion; the same bribe under implied threat is Deception.</p>
+			</text>
+				</deception>
+
+				<endurance>
+			<locked type="number">1</locked>
+			<name type="string">Endurance</name>
+			<stat type="string">Constitution</stat>
+			<text type="formattedtext">
+				<p>Pushing through physically punishing conditions. Extreme cold, extreme heat, forced march, sleep deprivation, resisting exhaustion, enduring pain, operating under sustained physical stress over extended periods. This is raw physical resilience — not managing your resources cleverly, not treating damage after the fact, just keeping going when your body wants to stop.</p>
+				<h>Does Not Cover</h>
+				<p>Athletics (active physical effort in the moment — sprinting, climbing, wrestling), Survival (finding food and water to prevent the need to endure hardship in the first place), Healing (treating injuries after the fact).</p>
+				<h>Example Uses</h>
+				<list>
+					<li>March without meaningful rest through a second night when the group needs to cover ground.</li>
+					<li>Resist the numbing cold of a blizzard long enough to reach shelter.</li>
+					<li>Continue fighting with broken ribs when going down means the party dies.</li>
+					<li>Hold a position in sweltering plate armor during a siege that will not end quickly.</li>
+					<li>Endure interrogation under physical pressure without breaking.</li>
+				</list>
+				<h>GM Guidance</h>
+				<p>Endurance is the load-bearing skill for gritty rest and exhaustion mechanics. Call for it when a character is being pushed past the comfortable limits of their body over time, not in a single moment of action. Failure costs HP, exhaustion levels, or conditions — not information.</p>
+			</text>
+				</endurance>
+
+				<healing>
+			<locked type="number">1</locked>
+			<name type="string">Healing</name>
+			<stat type="string">Wisdom</stat>
+			<text type="formattedtext">
+				<p>Field medicine and practical hands-on care. Tending wounds, stopping bleeding, stabilizing the dying, applying herbal preparations, diagnosing illness from symptoms. Replaces Medicine. WIS because it requires reading a patient's condition in the moment, adapting to what is available, and knowing when to act versus when not to.</p>
+				<h>Does Not Cover</h>
+				<p>Science (clinical or academic medicine — anatomy and pharmacology as formal knowledge), Herblore (identifying and preparing the medicinal plants to be applied), Nature (understanding disease ecology or creature biology as a subject of study).</p>
+				<h>Example Uses</h>
+				<list>
+					<li>Bind a wound quickly enough to prevent blood loss during a retreat.</li>
+					<li>Stabilize a dying companion with whatever is at hand.</li>
+					<li>Recognize that the fever is getting worse and what that implies for survival timelines.</li>
+					<li>Apply a poultice correctly to prevent infection in a deep cut.</li>
+					<li>Diagnose poisoning from symptoms and know whether rest, purging, or an antidote is needed.</li>
+				</list>
+				<h>GM Guidance</h>
+				<p>Healing is about doing the work at the bedside or on the battlefield. A character with Healing proficiency does not need a surgeon's education to save lives in the field. Science covers the same territory academically. The two can coexist productively in the same character.</p>
+			</text>
+				</healing>
+
+				<herblore>
+			<locked type="number">1</locked>
+			<name type="string">Herblore</name>
+			<stat type="string">Wisdom</stat>
+			<text type="formattedtext">
+				<p>Identifying medicinal and alchemical plants by sight, smell, and texture. Knowing what preparations work for which conditions, how to process plant material safely, and what combines productively or dangerously. Preparing herbal remedies, tinctures, and poisons. WIS because it is sensory knowledge accumulated through experience and pattern recognition.</p>
+				<h>Does Not Cover</h>
+				<p>Nature (the biological and ecological knowledge of plant species — what they ARE in a broader sense), Wildcraft (knowing where to find plants in the wild), Healing (applying the finished remedy to a patient — Herblore makes it, Healing uses it).</p>
+				<h>Example Uses</h>
+				<list>
+					<li>Identify that what a merchant is selling as feverwort is actually a mild toxin.</li>
+					<li>Prepare a pain-deadening tincture from plants found in the last valley.</li>
+					<li>Know which fungi from a cave passage are safe to eat and which will cause paralysis.</li>
+					<li>Recognize the signature smell of nightshade in a supposedly harmless tea.</li>
+					<li>Brew a contact poison from materials purchased at a general store without arousing suspicion.</li>
+				</list>
+				<h>GM Guidance</h>
+				<p>Herblore is specialized and rewards investment. A ranger with Wildcraft knows where to find herbs; a healer with Healing knows how to apply them; the herbalist knows what they ARE and how to prepare them. Getting from plant in the field to remedy on the wound may require two or three of these skills working together.</p>
+			</text>
+				</herblore>
+
+				<insight>
+			<locked type="number">1</locked>
+			<name type="string">Insight</name>
+			<stat type="string">Wisdom</stat>
+			<text type="formattedtext">
+				<p>Reading people. Detecting lies, sensing hidden motives, understanding emotional states, recognizing when someone is under duress or performing a role they do not genuinely inhabit. Unchanged from standard 5E.</p>
+				<h>Does Not Cover</h>
+				<p>Perception (physical alertness to environmental threats — that is CON-based vigilance), Investigation (analyzing material evidence at a scene), Deception (active manipulation — Insight is the counter to Deception, not the same thing).</p>
+				<h>Example Uses</h>
+				<list>
+					<li>Sense that the innkeeper is afraid of someone before they say anything that indicates it.</li>
+					<li>Detect that the merchant is lying about the origin of the goods, even though the lie is smooth.</li>
+					<li>Recognize that the informant genuinely believes what they are saying, even if it is wrong.</li>
+					<li>Understand that the lord's anger is a performance for someone else in the room.</li>
+					<li>Know that the offer is genuine even though the terms sound too good.</li>
+				</list>
+				<h>GM Guidance</h>
+				<p>Insight gives information; it does not tell a character what to do with it. On a success, tell the player what the character senses — nervous, hiding something, telling the truth as they know it — and leave interpretation to them. Insight does not automatically detect lies; it detects tells, inconsistency, and emotional signals.</p>
+			</text>
+				</insight>
+
+				<investigation>
+			<locked type="number">1</locked>
+			<name type="string">Investigation</name>
+			<stat type="string">Intelligence</stat>
+			<text type="formattedtext">
+				<p>Searching for and analyzing material evidence. Finding hidden things through deliberate examination, piecing together what happened from physical clues, researching through documents and records, connecting disparate pieces of information into a coherent picture. Unchanged from standard 5E.</p>
+				<h>Does Not Cover</h>
+				<p>Perception (noticing what is obvious in the environment without deliberately searching — Perception is reactive, Investigation is active), Insight (reading people rather than physical evidence — Investigation reads environments), Tracking (following signs of passage through changing terrain — Investigation analyzes a fixed scene).</p>
+				<h>Example Uses</h>
+				<list>
+					<li>Search a ransacked room and determine what was actually taken versus what was disturbed as misdirection.</li>
+					<li>Find the hidden compartment in the desk that the cursory search missed.</li>
+					<li>Determine from blood patterns which wound came first and what that implies about the sequence of events.</li>
+					<li>Cross-reference two accounts of the same event to identify what is being omitted from both.</li>
+					<li>Research a noble family's history through court records to find the leverage point.</li>
+				</list>
+				<h>GM Guidance</h>
+				<p>Perception notices what is there; Investigation finds what is hidden and connects what it means. On a failure, consider whether the character simply did not find it yet, or found something real that they misread. The difference between no information and wrong information creates more interesting play.</p>
+			</text>
+				</investigation>
+
+				<nature>
+			<locked type="number">1</locked>
+			<name type="string">Nature</name>
+			<stat type="string">Intelligence</stat>
+			<text type="formattedtext">
+				<p>Passive academic knowledge of the natural world. Identifying creatures by their characteristics, understanding ecosystems and how they function, plant and animal biology, natural phenomena such as weather patterns and geological features. In Steadfast5e, Nature is a purely knowledge-based INT skill — active wilderness work (navigating terrain, reading weather) belongs to Wildcraft, and medicinal plant application belongs to Herblore.</p>
+				<h>Does Not Cover</h>
+				<p>Wildcraft (active wilderness navigation and terrain reading), Beastcraft (working with and handling animals), Herblore (medicinal and alchemical applications of plants — Nature knows what a plant is, Herblore knows what to do with it), Survival (finding food and water).</p>
+				<h>Example Uses</h>
+				<list>
+					<li>Identify what creature left these remains based on anatomy and characteristic marks.</li>
+					<li>Recognize that this forest's undergrowth pattern suggests something large nests within half a mile.</li>
+					<li>Understand why the river runs strange colors at this time of year and whether it is dangerous.</li>
+					<li>Know the approximate territory range of the predator species in this region and where they den.</li>
+					<li>Identify a plant species accurately enough to know whether Herblore or Survival can make use of it.</li>
+				</list>
+				<h>GM Guidance</h>
+				<p>Nature answers "what IS this?" — not "what do I DO with it?" A character with Nature but no Survival can identify edible plants in principle but may still starve because they cannot find them or harvest them quickly enough. Nature does not cover plant uses — that is Herblore. Nature does not cover active navigation or weather-reading — that is Wildcraft.</p>
+			</text>
+				</nature>
+
+				<occult>
+			<locked type="number">1</locked>
+			<name type="string">Occult</name>
+			<stat type="string">Wisdom</stat>
+			<text type="formattedtext">
+				<p>Instinctive, experiential knowledge of things that defy normal understanding. Fey bargains and the rules that govern them, warlock pacts and their consequences, sorcerous phenomena, curses and how they operate, the nature of otherworldly entities, prophecy, hauntings. Knowledge accumulated through encounters and hard-won experience rather than formal study. Where Arcana is the textbook, Occult is the scar.</p>
+				<h>Does Not Cover</h>
+				<p>Arcana (structured magical theory — magic as a knowable system studied in books), Religion (divine lore, theology, and the hierarchy of gods and their servants), Nature (mundane creatures and natural phenomena, even unusual ones).</p>
+				<h>Example Uses</h>
+				<list>
+					<li>Know that the thing offering you a bargain will technically honor it but is counting on you to misunderstand the terms.</li>
+					<li>Recognize the symptoms of a geas and what breaking it historically does to the person under it.</li>
+					<li>Understand that the ring of mushrooms is a fey marker and what that implies about the land here.</li>
+					<li>Know that the sorcerer's power is coming from somewhere external rather than being truly innate.</li>
+					<li>Identify a haunt by its behavioral pattern and what kind of intervention has resolved similar ones before.</li>
+				</list>
+				<h>GM Guidance</h>
+				<p>Occult is wisdom born of exposure to weirdness. A character with Occult has either dealt with strange things personally or learned from someone who paid for that education dearly. Arcana might tell you how to counterspell a fey enchantment; Occult tells you whether doing so was a catastrophic mistake given the context.</p>
+			</text>
+				</occult>
+
+				<perception>
+			<locked type="number">1</locked>
+			<name type="string">Perception</name>
+			<stat type="string">Constitution</stat>
+			<text type="formattedtext">
+				<p>Physical alertness. Noticing threats in the environment, detecting movement, hearing things that should not be there, staying sharp under conditions that dull others' senses. In Steadfast5e, Perception is rebased to Constitution — not Wisdom. Alertness is fundamentally about stamina: maintaining sensory vigilance over time. The guard who is still sharp at hour six of a watch has better Perception than one who has mentally checked out.</p>
+				<h>Does Not Cover</h>
+				<p>Insight (reading people's emotional states and detecting lies — that is WIS intuition), Investigation (deliberate, active searching for specific things — Perception is reactive notice, not methodical search).</p>
+				<h>Example Uses</h>
+				<list>
+					<li>Notice movement in the shadows before the ambush springs.</li>
+					<li>Hear the loose floorboard in the adjoining room at the inn.</li>
+					<li>Stay alert through a long watch without losing focus during the quiet hours.</li>
+					<li>Spot the crossbowman on the rooftop that everyone else missed.</li>
+					<li>Detect the smell of something burning from two streets away.</li>
+				</list>
+				<h>GM Guidance</h>
+				<p>Passive Perception is now 10 + CON modifier + proficiency bonus if proficient. A wizard with poor CON has lower passive perception not because they are careless, but because they cannot sustain the vigilance. Call for active Perception rolls when alertness under sustained pressure matters — not for leisurely observation in safe conditions, which is Investigation.</p>
+			</text>
+				</perception>
+
+				<perform>
+			<locked type="number">1</locked>
+			<name type="string">Perform</name>
+			<stat type="string">Charisma</stat>
+			<text type="formattedtext">
+				<p>Entertaining, captivating, or moving an audience through music, theater, dance, oratory, or other performative arts. Renamed from Performance, unchanged in function. Creating a convincing artistic persona, executing craft under pressure, and reading what an audience needs.</p>
+				<h>Does Not Cover</h>
+				<p>Deception (using performance as the vehicle for a lie — when the performance IS the deception, it is Deception), Persuasion (social influence through direct honest appeal — Perform is about craft and audience engagement, not argument).</p>
+				<h>Example Uses</h>
+				<list>
+					<li>Play well enough in a hostile tavern to earn a room for the night rather than being thrown out.</li>
+					<li>Deliver a eulogy that moves a room full of strangers who did not know the deceased.</li>
+					<li>Maintain character through an improvised theatrical piece long enough to cover the party's exit.</li>
+					<li>Win over a skeptical crowd with a piece of music that speaks to what they are already feeling.</li>
+					<li>Dance formally at a noble's court without embarrassing the contact who vouched for your presence.</li>
+				</list>
+				<h>GM Guidance</h>
+				<p>Perform covers situations where the craft of performance itself is being tested. When a bard is using music to seduce, threaten, or deceive, that falls to Deception or Persuasion. When the quality and skill of the performance is what matters — and a bad roll means a bad performance — it is Perform.</p>
+			</text>
+				</perform>
+
+				<persuasion>
+			<locked type="number">1</locked>
+			<name type="string">Persuasion</name>
+			<stat type="string">Charisma</stat>
+			<text type="formattedtext">
+				<p>Honest positive social influence. Making genuine appeals, negotiating in good faith, diplomatic navigation, formal social situations, connecting with someone through reason or honest emotion. When the character is genuinely trying to reach a mutually beneficial outcome. Unchanged from standard 5E.</p>
+				<h>Does Not Cover</h>
+				<p>Deception (any dishonest or coercive social influence — if there is a lie or implied threat, it is Deception), Perform (performance for its own sake rather than as a means of honest social outcome), Streetwise (knowing who to approach and how to open the door — Persuasion handles what comes after).</p>
+				<h>Example Uses</h>
+				<list>
+					<li>Negotiate a reduced toll by appealing to the guard's civic pride and sense of fair dealing.</li>
+					<li>Convince a frightened witness to come forward by honestly explaining what their testimony could prevent.</li>
+					<li>Find common ground with a hostile faction leader to arrange a meeting.</li>
+					<li>Request mercy from a magistrate for the condemned, explaining genuinely mitigating circumstances.</li>
+					<li>Refuse an offer diplomatically without giving offense.</li>
+				</list>
+				<h>GM Guidance</h>
+				<p>Persuasion works when the target has some reason to want to be persuaded — they just need the right framing. When a character is trying to get someone to do something that genuinely goes against their core interests or values, consider whether Persuasion is the right call at all.</p>
+			</text>
+				</persuasion>
+
+				<religion>
+			<locked type="number">1</locked>
+			<name type="string">Religion</name>
+			<stat type="string">Intelligence</stat>
+			<text type="formattedtext">
+				<p>Academic and theological knowledge of gods and their domains, divine orders and hierarchies, religious law, holy texts, ceremonies, the afterlife, undead, angels, devils, and the nature of divine power. Unchanged from standard 5E.</p>
+				<h>Does Not Cover</h>
+				<p>Occult (weird, dark, or fey entities operating outside recognizable divine hierarchy), Arcana (magic as a theoretical system — even clerical magic discussed as pure mechanics), Healing (practical application of divine healing is a WIS-based practice, not an INT subject).</p>
+				<h>Example Uses</h>
+				<list>
+					<li>Identify a cult's holy symbol and know what their theology implies about their likely practices.</li>
+					<li>Know the proper forms for the funerary rite in this region's dominant faith.</li>
+					<li>Understand what a devil is contractually obligated to do in this situation under infernal law.</li>
+					<li>Recognize that the "undead" entity behaves like a ghost but the manifestation pattern suggests something else entirely.</li>
+					<li>Know which of the three competing temples will grant sanctuary to someone of your background and history.</li>
+				</list>
+				<h>GM Guidance</h>
+				<p>Religion covers the institutional and academic dimensions of faith. It does not represent personal faith or divine connection — that is a roleplay and class feature concern. A cleric might or might not have proficiency in Religion depending on whether their calling came through study or direct divine experience.</p>
+			</text>
+				</religion>
+
+				<science>
+			<locked type="number">1</locked>
+			<name type="string">Science</name>
+			<stat type="string">Intelligence</stat>
+			<text type="formattedtext">
+				<p>Hard empirical knowledge: formal biology, chemistry, physics, engineering and structural mechanics, mathematics, geology, astronomy, and clinical or academic medicine as distinct from field healing. The non-magical empirical lens on the world.</p>
+				<h>Does Not Cover</h>
+				<p>Arcana (magical explanations for phenomena), Academics (soft sciences, humanities, and social disciplines), Healing (practical hands-on medical care — Science is the textbook, Healing is the bedside), Crafting (making things with technical knowledge — Science knows why, Crafting knows how to execute).</p>
+				<h>Example Uses</h>
+				<list>
+					<li>Determine the structural load-bearing points of a building and where it will collapse first.</li>
+					<li>Calculate siege weapon trajectory without needing trial shots.</li>
+					<li>Diagnose a disease from clinical presentation and know its likely progression and infectious vectors.</li>
+					<li>Know what materials will survive exposure to the acid pool at the bottom of this dungeon.</li>
+					<li>Identify a mineral deposit by the geological profile of the surrounding rock formation.</li>
+				</list>
+				<h>GM Guidance</h>
+				<p>Science is rare among adventurers and marks someone with formal education in technical disciplines. Do not call for Science checks unless the answer genuinely requires technical education — a good Nature or Investigation roll often handles the same situation for characters who lack Science.</p>
+			</text>
+				</science>
+
+				<stealth>
+			<locked type="number">1</locked>
+			<name type="string">Stealth</name>
+			<stat type="string">Dexterity</stat>
+			<text type="formattedtext">
+				<p>Moving without being noticed. Hiding, moving quietly, concealing your presence from observers. The question Stealth answers is: did anyone see or hear you? Unchanged from standard 5E.</p>
+				<h>Does Not Cover</h>
+				<p>Deception (lying about what you were doing after the fact — Stealth is about not being observed in the first place), Acrobatics (graceful movement without the element of concealment), Trickery (hiding what your hands are doing while being observed, rather than hiding yourself).</p>
+				<h>Example Uses</h>
+				<list>
+					<li>Slip past a guard post without triggering a challenge.</li>
+					<li>Press into the alcove as the patrol rounds the corner.</li>
+					<li>Move through a warehouse full of sleeping workers without waking anyone.</li>
+					<li>Trail a target through a crowded market while remaining unnoticed.</li>
+					<li>Conceal yourself in available cover after the lights come on unexpectedly.</li>
+				</list>
+				<h>GM Guidance</h>
+				<p>Stealth requires conditions — cover, dim light, distance, or distraction. A character cannot stealth across an open field in broad daylight against an alert opponent who is looking for them. When a character is already being observed, they need to first break line of sight or create a distraction before a Stealth roll is meaningful.</p>
+			</text>
+				</stealth>
+
+				<streetwise>
+			<locked type="number">1</locked>
+			<name type="string">Streetwise</name>
+			<stat type="string">Charisma</stat>
+			<text type="formattedtext">
+				<p>Urban social navigation. Knowing who controls what territory in a city, working existing contacts and networks, knowing which doors to knock on and how, navigating factional relationships and city politics, black market knowledge, reading danger in urban environments, and understanding how city power actually functions beneath the official surface.</p>
+				<h>Does Not Cover</h>
+				<p>Deception (actively lying your way through urban interactions — Streetwise is knowing who to approach and how to open the door), Persuasion (honest influence with specific individuals), Investigation (looking for material evidence in an urban environment).</p>
+				<h>Example Uses</h>
+				<list>
+					<li>Know which fence in this city will buy stolen temple goods without asking questions and without immediately informing on you.</li>
+					<li>Figure out which ward to find cheap lodging that will not attract official attention.</li>
+					<li>Recognize that the beggar watching the inn doorway is working for someone before you walk past them.</li>
+					<li>Establish that you are not someone to be lightly robbed or shaken down, without making explicit threats.</li>
+					<li>Navigate the local guild power structure to request a meeting with the right person without giving offense to everyone else in the chain.</li>
+				</list>
+				<h>GM Guidance</h>
+				<p>Streetwise reflects fluency in urban environments as social terrain. It is knowledge, not just skill — knowing how to read the landscape, who matters, and how things actually work. A character with Streetwise proficiency walks into an unfamiliar city and quickly assesses where the real power lies, where to get what they need, and what to avoid.</p>
+			</text>
+				</streetwise>
+
+				<survival>
+			<locked type="number">1</locked>
+			<name type="string">Survival</name>
+			<stat type="string">Wisdom</stat>
+			<text type="formattedtext">
+				<p>Finding and securing the basic necessities of life. Locating food and water, foraging, knowing what is safe to consume, improvising shelter, basic hunting and fishing. Applies in any environment — wilderness, urban, underdark, maritime. In Steadfast5e, Survival's scope is distinct from Tracking: Survival finds resources, Tracking follows quarry.</p>
+				<h>Does Not Cover</h>
+				<p>Tracking (following a specific quarry — Survival finds food, Tracking finds the deer that made those prints), Wildcraft (navigating terrain and reading the land — Survival is about resources, not routes), Endurance (pushing through when you have not been able to secure resources).</p>
+				<h>Example Uses</h>
+				<list>
+					<li>Find clean water sources in a swamp where the surface water is stagnant and unsafe.</li>
+					<li>Identify which urban food waste is actually safe to eat when the party has nothing else.</li>
+					<li>Set snares and check them efficiently while the party makes camp.</li>
+					<li>Know that the fishing is poor here because of something upstream, and where to go instead.</li>
+					<li>Determine which building debris provides workable shelter for a night and which will collapse.</li>
+				</list>
+				<h>GM Guidance</h>
+				<p>Survival is the resource-finding skill. Only call for checks when actual scarcity, unusual conditions, or time pressure create genuine stakes. Do not call for Survival to follow tracks or read terrain — that is Tracking and Wildcraft respectively. Survival and Endurance work together: Survival prevents the need for Endurance, and Endurance is the fallback when Survival has run out of options.</p>
+			</text>
+				</survival>
+
+				<tracking>
+			<locked type="number">1</locked>
+			<name type="string">Tracking</name>
+			<stat type="string">Wisdom</stat>
+			<text type="formattedtext">
+				<p>Following trails. Reading signs of passage in the environment — footprints, broken branches, disturbed soil, discarded materials — identifying what creature or person left them, estimating when tracks were made and how fast the subject was moving, and following a trail that a quarry is actively trying to obscure.</p>
+				<h>Does Not Cover</h>
+				<p>Survival (general resource-finding and foraging — Tracking follows a specific subject, not edible plants), Wildcraft (navigating terrain for route-finding — Tracking reads terrain for signs of passage), Investigation (analyzing static physical evidence at a fixed scene).</p>
+				<h>Example Uses</h>
+				<list>
+					<li>Follow a group through thick forest where they have deliberately scattered to break the trail.</li>
+					<li>Determine from the tracks that the wounded animal is slowing and will not make it much farther.</li>
+					<li>Identify which of two trails was left by your quarry versus local wildlife.</li>
+					<li>Read a camp's remains to determine how many rested here, how recently, and in what direction they departed.</li>
+					<li>Track through an urban environment by reading disturbed dust, mud prints, and disturbed refuse.</li>
+				</list>
+				<h>GM Guidance</h>
+				<p>Tracking difficulty scales with conditions: fresh tracks in soft mud are easy, week-old tracks through rock after rain are very hard. A subject actively concealing their trail contests against the tracker's roll. When Tracking fails, the trail goes cold — it does not lead somewhere wrong, unless a dramatic misdirection would be more interesting.</p>
+			</text>
+				</tracking>
+
+				<trickery>
+			<locked type="number">1</locked>
+			<name type="string">Trickery</name>
+			<stat type="string">Dexterity</stat>
+			<text type="formattedtext">
+				<p>Fast hands and fine motor deception. Picking pockets, lockpicking, sleight of hand with objects, forging physical documents and items, concealing objects on your person. Renamed from Sleight of Hand, unchanged in function.</p>
+				<h>Does Not Cover</h>
+				<p>Deception (the social lying and manipulation — Trickery is the physical act, Deception is the social performance that covers it), Stealth (hiding your entire presence — Trickery hides what your hands are doing while you are otherwise visible).</p>
+				<h>Example Uses</h>
+				<list>
+					<li>Lift the keyring from the guard's belt during a casual-seeming conversation.</li>
+					<li>Pick a padlock in the time it takes the patrol to make one circuit.</li>
+					<li>Palm a small object from the evidence table under the magistrate's direct line of sight.</li>
+					<li>Forge a travel document convincingly enough to pass a casual checkpoint inspection.</li>
+					<li>Conceal a blade in your boot that will not be found in a standard pat-down.</li>
+				</list>
+				<h>GM Guidance</h>
+				<p>Trickery requires some cover — a distraction, a crowd, a moment of inattention. Against an actively watching target, the difficulty rises sharply. When a character uses Trickery to forge something, treat the Trickery roll as the DC for the recipient's Investigation or Insight check.</p>
+			</text>
+				</trickery>
+
+				<wildcraft>
+			<locked type="number">1</locked>
+			<name type="string">Wildcraft</name>
+			<stat type="string">Wisdom</stat>
+			<text type="formattedtext">
+				<p>Active wilderness skills. Navigating by landmarks and stars, reading terrain to find the best route, interpreting weather signs before conditions change, locating shelter, identifying environmental hazards before they become problems, crossing difficult natural terrain without loss. The WIS-based active counterpart to the INT-based passive knowledge of Nature. Replaces the active elements of the old Nature skill.</p>
+				<h>Does Not Cover</h>
+				<p>Nature (academic or druidic knowledge of the natural world — what things are and why), Survival (finding food and water resources — Wildcraft handles getting there, Survival handles staying fed), Tracking (following a specific subject's passage), Beastcraft (working with animals encountered in the wilderness).</p>
+				<h>Example Uses</h>
+				<list>
+					<li>Navigate through unmarked forest to reach the pass before the storm closes it.</li>
+					<li>Read terrain features to identify where the mountain route will ice over first and find the safer alternative.</li>
+					<li>Find shelter in a ravine that will block the wind without creating flood risk.</li>
+					<li>Read sky and plant signs to know the weather is about to turn significantly worse.</li>
+					<li>Cross a marsh without losing anyone to hidden deep water.</li>
+				</list>
+				<h>GM Guidance</h>
+				<p>Wildcraft is the orienteering and environmental reading skill. When characters are trying to go somewhere through difficult terrain, navigate by natural signs, or read what the land is telling them about conditions ahead, this is the skill. Survival tells you what to eat once you are there; Wildcraft tells you how to get there.</p>
+			</text>
+				</wildcraft>
+
+		</skilldata>
+	</reference>
+</root>

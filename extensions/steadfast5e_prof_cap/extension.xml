@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root version="4.1">
+	<properties>
+		<name>Feature: Steadfast5e - Proficiency Bonus Cap +4</name>
+		<version>2.0</version>
+		<author>Kerry Harrison (sirkerry)</author>
+	<description>Part of the Steadfast5e suite. Slower proficiency bonus
+	progression: +2 (levels 1-6), +3 (7-12), +4 (13+). Designed for gritty,
+	low-fantasy, OSR-style 5E play. Compatible with the D&amp;D 5E 2014 (Legacy) and 2024 versions.</description>
+		<ruleset>
+			<name>5E</name>
+		</ruleset>
+		<loadorder>10</loadorder>
+	</properties>
+
+	<base>
+		<includefile source="base.xml" />
+	</base>
+</root>

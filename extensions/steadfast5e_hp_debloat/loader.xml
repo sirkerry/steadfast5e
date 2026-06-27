@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+	<script name="HPDebloatManager" file="scripts/manager_hp_debloat.lua" />
+</root>

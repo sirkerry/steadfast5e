@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+	<!-- Option labels (displayed in the Options panel) -->
+	<string name="option_label_SSHPP">HP Debloat: Apply to PCs</string>
+	<string name="option_label_SSHNP">HP Debloat: Apply to NPCs</string>
+	<string name="option_label_SSHPM">HP Debloat: Apply to Monsters</string>
+	<string name="option_label_SSHLM">HP Debloat: Level Up Mode</string>
+
+	<!-- Values for SSHLM toggle -->
+	<string name="option_val_SSHLM_auto">Auto Apply</string>
+	<string name="option_val_SSHLM_prompt">Prompt Player</string>
+
+	<!-- Chat messages -->
+	<string name="hpd_msg_levelup_prompt">HP Debloat — %s gains %d HP from leveling. Apply manually.</string>
+	<string name="hpd_msg_recalc">HP Debloat: recalculated HP for %s (%d -> %d max, %d -> %d current).</string>
+	<string name="hpd_msg_monster_recalc">HP Debloat: recalculated HP for monster %s (%d -> %d).</string>
+	<string name="hpd_msg_noclasses">HP Debloat: skipped %s (no class/HD data found).</string>
+</root>

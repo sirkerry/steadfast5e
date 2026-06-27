@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root version="4.1">
+	<properties>
+		<name>Feature: Steadfast5e - Expanded Skills</name>
+		<version>2.0</version>
+		<author>Kerry Harrison (sirkerry)</author>
+		<description>Part of the Steadfast5e suite. Replaces the standard 18 5E skills with 26 flat skills that give every ability score a broader role and eliminate redundancy. Renames History/Academics, Medicine/Healing, Performance/Perform, Sleight of Hand/Trickery, Animal Handling/Beastcraft, and Nature/Wildcraft; moves Perception to CON; absorbs Intimidation into Deception; and adds 8 new skills. Old proficiencies migrate automatically. Compatible with the D&amp;D 5E 2014 (Legacy) and 2024 versions.</description>
+		<ruleset><name>5E</name></ruleset>
+		<loadorder>11</loadorder>
+	</properties>
+	<base>
+		<includefile source="strings/strings.xml" />
+		<includefile source="base.xml" />
+		<includefile source="loader.xml" />
+	</base>
+</root>

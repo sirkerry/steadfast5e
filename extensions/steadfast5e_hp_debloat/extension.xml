@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root version="4.1">
+	<properties>
+		<name>Feature: Steadfast5e - HP Debloat</name>
+		<version>1.0</version>
+		<author>Kerry Harrison (sirkerry)</author>
+		<description>Compresses PC and NPC hit points for grittier, more lethal 5E play. Level 1: max hit die + CON modifier. Each level beyond 1st: max hit die / 2, no additional CON. Multiclass characters use the highest-die class for the level 1 calculation. Options: apply formula to monsters; auto-apply or prompt on level up.</description>
+		<ruleset><name>5E</name></ruleset>
+		<loadorder>12</loadorder>
+	</properties>
+	<base>
+		<includefile source="strings/strings.xml" />
+		<includefile source="loader.xml" />
+	</base>
+</root>
