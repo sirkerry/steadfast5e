@@ -154,8 +154,8 @@ end
 function applyDurations()
 	local sShort = OptionsManager.getOption(OPT_SHORT_DUR) or "raw";
 	local sLong  = OptionsManager.getOption(OPT_LONG_DUR)  or "raw";
-	CombatManager.setRestDuration("short", SHORT_DUR[sShort] or SHORT_DUR["raw"]);
-	CombatManager.setRestDuration("long",  LONG_DUR[sLong]   or LONG_DUR["raw"]);
+	ActionCore.setRestDuration("short", SHORT_DUR[sShort] or SHORT_DUR["raw"]);
+	ActionCore.setRestDuration("long",  LONG_DUR[sLong]   or LONG_DUR["raw"]);
 end
 
 -- ── Scope check ──────────────────────────────────────────────────────────────
