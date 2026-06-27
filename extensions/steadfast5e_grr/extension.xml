@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root version="4.1">
+	<properties>
+		<name>Feature: Steadfast5e - Gritty Realism Rest</name>
+		<version>1.0</version>
+		<author>Kerry Harrison (sirkerry)</author>
+		<description>Part of the Steadfast5e suite. Overhauls 5E rest and recovery to create meaningful attrition: configurable short/long rest durations, limited HD spending, optional CON/Endurance check for HD recovery after long rest, fractional HP recovery, and scope controls per creature type. Optional integration with Steadfast5e - Location System for per-tier overrides.</description>
+		<ruleset><name>5E</name></ruleset>
+		<loadorder>13</loadorder>
+	</properties>
+	<base>
+		<includefile source="strings/strings.xml" />
+		<includefile source="loader.xml" />
+	</base>
+</root>

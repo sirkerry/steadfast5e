@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root version="4.1">
+	<script name="GrittyRealismRest" file="scripts/manager_se_grr.lua" />
+</root>

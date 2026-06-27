@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+	<!-- Option group header -->
+	<string name="option_header_grr">Steadfast5e - Gritty Realism Rest</string>
+
+	<!-- Rest Duration -->
+	<string name="option_label_GRR_SHORT_DUR">GRR: Short Rest Duration</string>
+	<string name="option_val_GRR_SHORT_DUR_raw">1 Hour (RAW)</string>
+	<string name="option_val_GRR_SHORT_DUR_extended">4 Hours</string>
+	<string name="option_val_GRR_SHORT_DUR_overnight">8 Hours</string>
+
+	<string name="option_label_GRR_LONG_DUR">GRR: Long Rest Duration</string>
+	<string name="option_val_GRR_LONG_DUR_raw">8 Hours (RAW)</string>
+	<string name="option_val_GRR_LONG_DUR_gritty1">1 Day</string>
+	<string name="option_val_GRR_LONG_DUR_gritty3">3 Days</string>
+	<string name="option_val_GRR_LONG_DUR_gritty7">7 Days</string>
+
+	<!-- Hit Dice -->
+	<string name="option_label_GRR_HD_CHECK">GRR: Long Rest HD Recovery Check</string>
+	<string name="option_val_GRR_HD_CHECK_on">Enabled</string>
+
+	<string name="option_label_GRR_HD_DC">GRR: HD Recovery Check DC</string>
+	<string name="option_val_GRR_HD_DC_dc10">DC 10</string>
+	<string name="option_val_GRR_HD_DC_dc15">DC 15</string>
+	<string name="option_val_GRR_HD_DC_dc20">DC 20</string>
+	<string name="option_val_GRR_HD_DC_manual">Manual</string>
+
+	<string name="option_label_GRR_HD_PASS">GRR: HD Recovery Check — Pass</string>
+	<string name="option_val_GRR_HD_PASS_full">Full HD</string>
+	<string name="option_val_GRR_HD_PASS_half">Half HD</string>
+	<string name="option_val_GRR_HD_PASS_quarter">Quarter HD</string>
+
+	<string name="option_label_GRR_HD_FAIL">GRR: HD Recovery Check — Fail</string>
+	<string name="option_val_GRR_HD_FAIL_half">Half HD</string>
+	<string name="option_val_GRR_HD_FAIL_quarter">Quarter HD</string>
+	<string name="option_val_GRR_HD_FAIL_zero">No HD</string>
+
+	<!-- HP Recovery -->
+	<string name="option_label_GRR_HP_REC">GRR: Long Rest HP Recovery</string>
+	<string name="option_val_GRR_HP_REC_full">Full (RAW)</string>
+	<string name="option_val_GRR_HP_REC_threequarters">Three-Quarters</string>
+	<string name="option_val_GRR_HP_REC_half">Half</string>
+	<string name="option_val_GRR_HP_REC_quarter">Quarter</string>
+
+	<!-- Scope -->
+	<string name="option_label_GRR_SCOPE_PC">GRR: Apply to Player Characters</string>
+	<string name="option_label_GRR_SCOPE_NPC">GRR: Apply to NPCs</string>
+	<string name="option_label_GRR_SCOPE_MON">GRR: Apply to Monsters</string>
+
+	<!-- Chat messages -->
+	<string name="grr_msg_hd_check">GRR — %s HD Recovery: d20%s = %d vs DC %d [%s] → recover %d of %d HD</string>
+	<string name="grr_msg_hd_check_skip">GRR — %s HD Recovery: check skipped (no HD used)</string>
+	<string name="grr_msg_hp_recovery">GRR — %s HP Recovery: restored %d of %d HP (%s)</string>
+</root>
