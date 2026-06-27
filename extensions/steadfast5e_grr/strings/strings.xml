@@ -25,12 +25,12 @@
 	<string name="option_val_GRR_HD_DC_dc20">DC 20</string>
 	<string name="option_val_GRR_HD_DC_manual">Manual</string>
 
-	<string name="option_label_GRR_HD_PASS">GRR: HD Recovery Check — Pass</string>
+	<string name="option_label_GRR_HD_PASS">GRR: HD Recovery Check: Pass</string>
 	<string name="option_val_GRR_HD_PASS_full">Full HD</string>
 	<string name="option_val_GRR_HD_PASS_half">Half HD</string>
 	<string name="option_val_GRR_HD_PASS_quarter">Quarter HD</string>
 
-	<string name="option_label_GRR_HD_FAIL">GRR: HD Recovery Check — Fail</string>
+	<string name="option_label_GRR_HD_FAIL">GRR: HD Recovery Check: Fail</string>
 	<string name="option_val_GRR_HD_FAIL_half">Half HD</string>
 	<string name="option_val_GRR_HD_FAIL_quarter">Quarter HD</string>
 	<string name="option_val_GRR_HD_FAIL_zero">No HD</string>
